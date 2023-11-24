@@ -16,7 +16,7 @@ CORS(api)
 def handle_hello():
 
     response_body = {
-        "message": "Hello! I'm a message that came from the backend, check the network tab on the google inspector and you will see the GET request"
+        "message": "Hello teacher! In spite of all the bugs that these 4geeks templates have, (the famous 'Vanesa's error, even though it's not Vanesa's, or the misterious CORS problems after updating my old project as you explained me to do) I have been able to pass it all to another repository and make at least the registration and login work. Thank you for approving this project! (By the way, this message is comming from the backend! ;) "
     }
 
     return jsonify(response_body), 200
